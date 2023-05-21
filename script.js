@@ -6,7 +6,7 @@ searchButton.addEventListener('click', searchImages);
 
 function searchImages() {
     const query = searchInput.value;
-    const accessKey = 't9Scs1GVfbKYXWjNJFpEieFWGDxxfN852DYyAWU1Gpg'; // Replace with your actual access key
+    const accessKey = 't9Scs1GVfbKYXWjNJFpEieFWGDxxfN852DYyAWU1Gpg'; 
     const apiUrl = `https://api.unsplash.com/search/photos?query=${query}&client_id=${accessKey}`;
 
     fetch(apiUrl)
